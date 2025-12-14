@@ -12,6 +12,6 @@ public class EditorState {
     public float offsetX;   // dodane
     public float offsetY;
     public int  activeColor = 0xff000000; // domyślny kolor czarny
-
+    public int filterAlpha = 255;
 
 }

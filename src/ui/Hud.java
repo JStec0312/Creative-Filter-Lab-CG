@@ -59,7 +59,7 @@ public class Hud {
         app.fill(220);
         app.textAlign(PApplet.LEFT, PApplet.TOP);
 
-        String shortcuts = "O - open image   S - save   B - brush   E - eraser   1..9 - filters   +/- - params   Z/Y - undo/redo h/H - hide current layer";
+        String shortcuts = "O - open image   S - save   B - brush   E - eraser   1..9 - filters   +/- - params   U/R - undo/redo h/H - hide current layer Z/X - decrease/increase layer opacity L/l - copy active layer DELETE - delete current layer";
         app.text(shortcuts, 10, app.height - 30);
 
         app.popStyle();
